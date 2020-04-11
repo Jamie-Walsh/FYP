@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "228481520601",
+    "firebase_url": "https://crepcheck-f3caa.firebaseio.com",
+    "project_id": "crepcheck-f3caa",
+    "storage_bucket": "crepcheck-f3caa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228481520601:android:bbc3c06525b303f3efbfc8",
+        "android_client_info": {
+          "package_name": "com.example.crepcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228481520601-9ghoekf6u64chqmd6d1q5pr6kb09s2eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crepcheck",
+            "certificate_hash": "9bc05490a3e14810b13c9b4c53a0e20939bbaaff"
+          }
+        },
+        {
+          "client_id": "228481520601-p4don9r7ufnll5n3co3o05lrbi9tquoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmavnaKk19qsSAPkWlf-npGBIHt__h6FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228481520601-p4don9r7ufnll5n3co3o05lrbi9tquoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
