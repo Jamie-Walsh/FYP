@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_colour">
+
+    <ImageButton
+        android:id="@+id/EditPost_choose_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_add_a_photo_black"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/EditPost_EditText_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/post_caption_hint"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:gravity="start|top"
+        android:background="@drawable/input_style"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/EditPost_choose_image_btn"
+        android:lines="6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/EditPost_EditText_caption"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/EditPost_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:layout_height="60dp"
+            android:textColorHint="@color/login_text_colour"
+            android:textColor="@color/login_text_colour"
+            android:textSize="16dp"
+            android:background="@drawable/rounded_corner"
+            android:text="@string/EditPost_btn"/>
+        <Button
+            android:id="@+id/DeletePost_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:textColorHint="@color/login_text_colour"
+            android:textColor="@color/login_text_colour"
+            android:textSize="16dp"
+            android:background="@drawable/rounded_corner"
+            android:text="@string/DeletePost_btn"/>
+    </LinearLayout>
+</RelativeLayout>

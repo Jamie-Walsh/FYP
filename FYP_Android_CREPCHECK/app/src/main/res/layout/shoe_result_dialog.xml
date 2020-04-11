@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/details_container"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            android:layout_marginRight="1dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/shoeName"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Shoe Name"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:paddingTop="1dp"
+                android:lines="2"/>
+
+            <TextView
+                android:id="@+id/shoePrice"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Shoe Price"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:layout_below="@+id/details_container"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageButton
+                android:id="@+id/btnFav"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_white"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageButton
+                android:id="@+id/btnShare"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_share_white"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_search_white"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageButton
+                android:id="@+id/btnClose"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_close_white"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

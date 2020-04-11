@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/edit_profile_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_profile_template"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorSecondary"/>
+
+    <TextView
+        android:id="@+id/edit_profile_pic_tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_pic_tv_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit_profile_pic"/>
+
+    <EditText
+        android:id="@+id/edit_profile_bio"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_profile_pic_tv_hint"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_profile_bio"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColorHint="@color/login_text_colour"
+        android:textColor="@color/login_text_colour"
+        android:background="@drawable/rounded_corner"
+        android:maxLength="50"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/edit_profile_save_changes_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_profile_bio"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColorHint="@color/login_text_colour"
+        android:textColor="@color/login_text_colour"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/edit_profile_save_changes" />
+</RelativeLayout>
