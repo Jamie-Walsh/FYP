@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/btn_feed"
+        android:icon="@drawable/ic_feed_black"
+        android:title="FEED"/>
+    <item
+        android:id="@+id/btn_camera"
+        android:icon="@drawable/ic_camera"
+        android:title="CHECK"/>
+    <item
+        android:id="@+id/btn_account"
+        android:icon="@drawable/ic_account"
+        android:title="ACCOUNT"/>
+</menu>

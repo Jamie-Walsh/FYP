@@ -1,0 +1,112 @@
+<resources>
+    <!-- Global -->
+    <string name="app_name">CREPCHECK</string>
+
+    <!-- ImageProcessor -->
+    <string name="heroku_server_url">https://crepcheck-server.herokuapp.com/predict</string>
+    <string name="local_server_url">http://192.168.0.171:5000/predict</string>
+    <string name="NetworkError">NetworkError: Please connect to the internet.</string>
+    <string name="ServerError">ServerError: Internal Server Error. Please Try Again.</string>
+    <string name="AuthFailureError">AuthFailureError: Invalid Credentials.</string>
+    <string name="ParseError">ParseError: There was an issue with the response data.</string>
+    <string name="NoConnectionError">NoConnectionError: Please connect to internet.</string>
+    <string name="TimeoutError">TimeoutError: Server Timed out.</string>
+    <string name="firebase_img_upload">Saved to favourites!</string>
+    <string name="added_to_fav">Shoe Successfully added to favourites!</string>
+    <string name="fav_already">This shoe is already in your favourites!</string>
+
+    <!-- Login & Sign Up -->
+    <string name="already_logged_in">You are logged in!</string>
+    <string name="prompt_login">Please log in!</string>
+    <string name="sign_up_instead">New To CREPCHECK? Sign up here</string>
+    <string name="login_instead">Already have an account? Log in here</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username_hint">Username</string>
+    <string name="empty_fields">Fields are empty.</string>
+    <string name="empty_username">Please choose your new username.</string>
+    <string name="empty_full_name">Please enter your full name.</string>
+    <string name="empty_email">Please enter an email address.</string>
+    <string name="empty_password">Please enter a password.</string>
+    <string name="login_unsuccessful">FireBase Login Error. Ensure details are correct.</string>
+    <string name="sign_up_unsuccessful">FireBase Sign up Error. Ensure password meets requirements.</string>
+    <string name="unknown_error">Unknown Error Occurred! Please try again.</string>
+    <string name="login_failed">Login failed</string>
+    <string name="mismatching_passwords">The two passwords entered do not match. Please try again.</string>
+
+    <!-- Articles Template -->
+    <string name="article_title">Title</string>
+    <string name="article_date">Date</string>
+    <string name="article_body">Body of Article</string>
+
+    <!-- Articles Template -->
+    <string name="Article_Title">Full Article</string>
+
+
+    <!-- Set up -->
+    <string name="full_name_hint">Full Name</string>
+    <string name="country_hint">Country</string>
+    <string name="save_details">Save Details</string>
+
+    <!-- Favourites -->
+    <string name="FavouritePage_Title">Favourites</string>
+
+    <!-- Favourite Template -->
+    <string name="favourite_name">Shoe Name</string>
+    <string name="favourite_price">Price</string>
+
+    <!-- Posts -->
+    <string name="PostActivity_Title">Add New Post</string>
+    <string name="post_caption_hint">Caption&#8230;</string>
+    <string name="post_btn">Post</string>
+    <string name="added_to_post">Post Successfully Uploaded!</string>
+
+    <!-- Post Template -->
+    <string name="post_type_text">has uploaded a post</string>
+    <string name="post_userName">Username</string>
+    <string name="post_date_tv">Date</string>
+    <string name="post_time_tv">Time</string>
+    <string name="post_caption">Post Caption&#8230;</string>
+    <string name="post_at_tv">At</string>
+    <string name="post_img_description">Post Image</string>
+    <string name="like_count">0 likes</string>
+
+    <!-- Edit Post -->
+    <string name="EditPostActivity_Title">Edit Post</string>
+    <string name="EditPost_btn">Save Changes</string>
+    <string name="DeletePost_btn">Delete Post</string>
+
+    <!-- Share Activity -->
+    <string name="ShareActivity_Title">Share</string>
+
+    <!-- Profile -->
+    <string name="ProfilePage_Title">Profile</string>
+    <string name="profile_user_name">Username</string>
+    <string name="profile_bio">I\'m using CRPECHECK!</string>
+    <string name="add_friend_btn">Add Friend</string>
+    <string name="cancel_friend_btn">Decline Request</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="unfriend">Unfriend</string>
+
+    <!-- EditProfileActivity -->
+    <string name="EditProfileActivity_Title">Edit Profile</string>
+    <string name="edit_profile_pic_tv_hint">Tap your profile picture to change it!</string>
+    <string name="edit_profile_save_changes">Save Changes</string>
+    <string name="edit_profile_bio">Biography</string>
+
+    <!-- Friends -->
+    <string name="FriendList_Title">Friends</string>
+
+    <!-- Add Friends -->
+    <string name="AddFriends_Title">Add Friends</string>
+    <string name="search_username">Search by username</string>
+
+    <!-- Comments -->
+    <string name="CommentsActivity_Title">Comments</string>
+    <string name="comment_bar_hint">Add a comment&#8230;</string>
+    <string name="comment_body">Body of Text</string>
+</resources>

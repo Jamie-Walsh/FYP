@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main -->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorSecondary">#990000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="navBarIcons">#000000</color>
+    <color name="titleColor">#990000</color>
+    <color name="textColor">#000000</color>
+    <color name="screen_colour">#FFFFFF</color>
+    <color name="navBarColour">#FFFFFF</color>
+
+    <!-- Login screen -->
+    <color name="login_text_colour">#FFFFFF</color>
+
+    <!-- Button colours -->
+    <color name="startColour">#800000</color>
+    <color name="centerColour">#990000</color>
+    <color name="endColour">#73001A</color>
+
+    <!-- Text box colours -->
+    <color name="input_startColour">#CCEC2727</color>
+    <color name="input_centerColour">#FFFFFF</color>
+    <color name="input_endColour">#CCCA1A33</color>
+
+</resources>
