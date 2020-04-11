@@ -1,0 +1,18 @@
+<!doctype html>
+<div style="text-align: center">
+	<h1>
+		CREPCHECK - Shoe classification model
+	</h1>
+	<h3>
+		Upload a shoe image to be classified!
+	</h3>
+	<form method="post" action="/predict" enctype="multipart/form-data">
+		<input name="shoe" type="file" />
+        <br>
+		<div>
+			<button type="submit" style="margin: 16px">
+				Classify
+			</button>
+		</div>
+	</form>
+</div>
